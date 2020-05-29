@@ -1,0 +1,92 @@
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Hiragino Kaku Gothic ProN W3', sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.top-wrapper {
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmvmoRa6z1UAfdNjdwKBQmkQAR8dWz3zEd7l7NF6_DkosdK1ueGliZrE3udA&s=10);
+  padding: 100px 0;
+  background-size: cover;
+  text-align: center;
+}
+
+.container {
+  margin: auto 0;
+}
+
+.top-wrapper h1 {
+  opacity: 0.7;
+  font-size: 48px;
+  letter-spacing: 5px;
+}
+
+.top-wrapper p {
+  opacity: 0.7;
+  margin-top: 20px;
+}
+
+.instagram {
+  background-color: red;
+}
+
+.youtube{
+  background-color: red;
+}
+
+.twitter{
+  background-color: #00BFFF;
+}
+
+.btn {
+  padding: 8px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 6px;
+  box-shadow: 0 6px #000011;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+.btn:active {
+  box-shadow: none;
+  position: relative;
+  top: 7px;
+}
+
+.lesson-wrapper {
+  text-align: center;
+  height: 400px;
+  background-color: #f7f7f7;
+}
+
+.heading{
+padding-top: 60px;
+ padding-bottom: 60px;
+ color: white;
+ background-color: black;
+margin-bottom: 50px;
+}
+
+.text-contents{
+  font-size: 15px;
+  margin-top:　100px;
+  width: 48%;
+  display: inline-block;
+}
